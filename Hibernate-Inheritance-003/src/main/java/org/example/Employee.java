@@ -2,12 +2,14 @@ package org.example;
 
 import jakarta.persistence.*;
 import lombok.*;
+import lombok.experimental.SuperBuilder;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Getter
+@Setter
 @ToString
-@Builder
+@SuperBuilder
 @Entity
 @Table(name = "employee_tbl")
 @Inheritance(strategy = InheritanceType.SINGLE_TABLE)

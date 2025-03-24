@@ -18,11 +18,24 @@ public class App
         SessionFactory sessionFactory=cfg.buildSessionFactory();
         Session session=sessionFactory.openSession();
         Transaction tx=session.beginTransaction();
-        Employee employye= Employee.builder()
-                .name("John")
-                .address("pune")
-                .build();
-        session.save(employye);
+//        Employee employye= Employee.builder()
+//                .name("John")
+//                .address("pune")
+//                .build();
+//        session.save(employye);
+
+//        FullTimeEmployee fullTimeEmployee=new FullTimeEmployee();
+//        fullTimeEmployee.setName("kunal");
+//        fullTimeEmployee.setAddress("Pune");
+//        fullTimeEmployee.setSalary(400);
+//        session.save(fullTimeEmployee);
+//
+        ContractEmployee contractEmployee=new ContractEmployee();
+        contractEmployee.setName("vishal");
+        contractEmployee.setAddress("Mumbai");
+        contractEmployee.setInvoice_amount(400);
+        session.save(contractEmployee);
+
         tx.commit();
         session.close();
         sessionFactory.close();
