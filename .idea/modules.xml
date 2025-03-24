@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Hibernate.iml" filepath="$PROJECT_DIR$/.idea/Hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-Inheritance-003/Hibernate-Inheritance-003.iml" filepath="$PROJECT_DIR$/Hibernate-Inheritance-003/Hibernate-Inheritance-003.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-Add-Data-002/Hibernate-Save-Collection-Object-002.iml" filepath="$PROJECT_DIR$/Hibernate-Add-Data-002/Hibernate-Save-Collection-Object-002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Hibernate-Single-Object-CRUD-001/Hibernate-Single-Object-CRUD-001.iml" filepath="$PROJECT_DIR$/Hibernate-Single-Object-CRUD-001/Hibernate-Single-Object-CRUD-001.iml" />
+    </modules>
+  </component>
+</project>
