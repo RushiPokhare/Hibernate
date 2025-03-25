@@ -1,0 +1,19 @@
+package org.example;
+
+
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import lombok.*;
+import lombok.experimental.SuperBuilder;
+
+@AllArgsConstructor
+@NoArgsConstructor
+@SuperBuilder
+@ToString
+@Getter
+@Setter
+@Entity
+public class ContractEmployee extends Employee {
+    @Column(name = "invoice_amount")
+    private int invoice_amount;
+}
