@@ -19,18 +19,18 @@ public class App
         Session session=sf.openSession();
         Transaction tx=session.beginTransaction();
 
-//        ContractEmployee CE =new ContractEmployee();
-//        CE.setInvoice_amount(10000);
-//        CE.setAddress("Pune");
-//        CE.setName("John");
+        ContractEmployee CE =new ContractEmployee();
+        CE.setInvoice_amount(10000);
+        CE.setAddress("Pune");
+        CE.setName("John");
 
-        FullTimeEmployee FTE =new FullTimeEmployee();
-        FTE.setName("Mary");
-        FTE.setAddress("Mumbai");
-        FTE.setSalary(50000);
+//        FullTimeEmployee FTE =new FullTimeEmployee();
+//        FTE.setName("Mary");
+//        FTE.setAddress("Mumbai");
+//        FTE.setSalary(50000);
 
-//        session.save(CE);
-        session.save(FTE);
+        session.save(CE);
+//        session.save(FTE);
 
 
 
